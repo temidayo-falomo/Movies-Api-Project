@@ -1,0 +1,9 @@
+.genres-bar {
+    height: 150px;
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

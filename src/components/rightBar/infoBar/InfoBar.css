@@ -1,0 +1,32 @@
+.infobar {
+    width: 100%;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTG {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.arrow {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: #00b9ae;
+}

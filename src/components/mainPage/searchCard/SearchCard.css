@@ -1,0 +1,49 @@
+.search-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 600px;
+  width: 300px;
+  padding: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(45, 45, 45, 0.2) 0px 8px 24px;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+  border: 1px #00b9ae solid;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like {
+    color: #fff;
+}
+
+.search-card img {
+    height: 100%;
+    width: 100%;
+}
+
+.search-cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2%;
+}
+
+@media(max-width: 650px) {
+    .search-cards {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-card {
+        height: 400px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,55 @@
+.right-bar {
+    background-color: #21242D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99999;
+    overflow: hidden;
+    position: relative;
+}
+
+.hlf {
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.w-all {
+    justify-content: flex-end;
+}
+
+.gap {
+    gap: 5px;
+}
+
+.notif {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.info-boxes {
+    gap: 22px;
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    scroll-behavior: auto;
+    height: 220px;
+    width: 100%;
+    padding-left: 7%;
+}
+
+.info-boxes::-webkit-scrollbar {
+    width: 0;
+}
+
+.draggable {
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 1575px) {
+    .draggable {
+        display: block;
+    }
+}
