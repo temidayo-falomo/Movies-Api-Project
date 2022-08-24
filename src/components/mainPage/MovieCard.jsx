@@ -7,9 +7,9 @@ function MovieCard({ topMovie }) {
 
   const baseImgUrl = "https://image.tmdb.org/t/p/";
   const size = "w400/";
+
   return (
-    <a
-      href="/"
+    <div
       className="movie-card"
       style={{
         background: `rgba(0, 0, 0, 0.3)url('${baseImgUrl}${size}${topMovie.poster_path}')`,
@@ -35,7 +35,7 @@ function MovieCard({ topMovie }) {
           <button className="watch-btn">Watch</button>
         </div>
       </div>
-    </a>
+    </div>
   );
 }
 
