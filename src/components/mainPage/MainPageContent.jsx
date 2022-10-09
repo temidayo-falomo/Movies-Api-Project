@@ -21,7 +21,7 @@ function MainPageContent(props) {
 
       <div className="popular">
         <div className="popular-on">
-          <h2>Popular on TinyMoviez</h2>
+          <h2>Popular Movies</h2>
             <FaAngleDoubleRight className="double-right" />
         </div>
         <div className="movie-cards">

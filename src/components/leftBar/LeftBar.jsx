@@ -41,19 +41,19 @@ function LeftBar() {
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <MdOutlineExplore />
                 Discover
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <BsAward />
                 Awards
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <BsPatchCheck />
                 Celebrities
               </a>
@@ -65,37 +65,37 @@ function LeftBar() {
           <h4>Library</h4>
           <ul>
             <li>
-              <a href="/">
+              <a href="#">
                 <BiTimeFive />
                 Recent
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <AiOutlineStar />
                 Top-Rated
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <FiDownload />
                 Downloaded
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <AiOutlineHeart />
                 Playlists
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <AiOutlinePlusCircle />
                 Watchlist
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <AiOutlineCheckSquare />
                 Completed
               </a>

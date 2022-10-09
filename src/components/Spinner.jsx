@@ -2,45 +2,20 @@ import React from "react";
 
 function Spinner() {
   return (
-    <div class="preloader">
-      <div class="box">
-        <div class="box__inner">
-          <div class="box__back-flap"></div>
-          <div class="box__right-flap"></div>
-          <div class="box__front-flap"></div>
-          <div class="box__left-flap"></div>
-          <div class="box__front"></div>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box__inner">
-          <div class="box__back-flap"></div>
-          <div class="box__right-flap"></div>
-          <div class="box__front-flap"></div>
-          <div class="box__left-flap"></div>
-          <div class="box__front"></div>
-        </div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
-      </div>
-      <div class="line">
-        <div class="line__inner"></div>
+    <div
+      className="div"
+      style={{ height: "100vh", display: "grid", placeContent: "center" }}
+    >
+      <div className="lds-grid" style={{ margin: "auto" }}>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   );

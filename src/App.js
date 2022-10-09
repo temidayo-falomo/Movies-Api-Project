@@ -28,7 +28,8 @@ function App() {
     const temp = await fetch(
       `https://api.themoviedb.org/3/trending/all/day?api_key=${api.key}`
     ).then((res) => res.json());
-    setTopMovies(temp.results.slice(0, 10));
+    setTopMovies(temp.results.slice(0, 20));
+    setLoading(false);
   };
 
   const GetTrending = async () => {
@@ -53,7 +54,7 @@ function App() {
     setGenres(temp.genres);
   };
 
-  const fetchMovies = async (query) => {
+  const fetchMovies = async () => {
     const temp = await fetch(`${SEARCH_API}+${searchTerm}`).then((res) =>
       res.json()
     );
@@ -64,7 +65,7 @@ function App() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    fetchMovies(searchTerm);
+    fetchMovies();
   };
 
   useEffect(() => {
@@ -72,9 +73,6 @@ function App() {
     GetTrending();
     GetUpcoming();
     GetGenres();
-    setInterval(() => {
-      setLoading(false);
-    }, 2000);
   }, []);
 
   return (
